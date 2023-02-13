@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+       <script>
+        var juegos = [
+          {"name" : "Rainbow Six Siege" , year : 2017 , "type" : "Aventura"},
+          {"name" : "GTA" , year : 2015 , "type" : "Tactical shotter"},
+          {"name" : "Fortnite" , year : 2017 , "type" : "MOBA"},
+          {"name" : "Sergio skylanders giants" , year : 2017 , "type" : "Aventura"},
+          {"name" : "Cult of the lamb" , year : 2021 , type : "Historia"}
+        ];
+        document.getElementById("nombre").innerHTML = juegos[0]["name"];
+        document.getElementById("year").innerHTML = juegos[0]["year"];
+        document.getElementById("type").innerHTML = juegos[0]["type"];
+
+        document.getElementById("nombre").innerHTML = juegos[1]["name"];
+        document.getElementById("year").innerHTML = juegos[1]["year"];
+        document.getElementById("type").innerHTML = juegos[1]["type"];
+
+        document.getElementById("nombre").innerHTML = juegos[2]["name"];
+        document.getElementById("year").innerHTML = juegos[2]["year"];
+        document.getElementById("type").innerHTML = juegos[2]["type"];
+
+        document.getElementById("nombre").innerHTML = juegos[3]["name"];
+        document.getElementById("year").innerHTML = juegos[3]["year"];
+        document.getElementById("type").innerHTML = juegos[3]["type"];
+        
+        document.getElementById("nombre").innerHTML = juegos[4]["name"];
+        document.getElementById("year").innerHTML = juegos[4]["year"];
+        document.getElementById("type").innerHTML = juegos[4]["type"];
+
+
+       </script>
+</body>
